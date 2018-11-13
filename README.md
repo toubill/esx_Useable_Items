@@ -10,7 +10,7 @@ With help of Morow, Big Thanks to him !
  You can use : 
 - 2 Umbrellas
 - 4 cases
-- 1 bong ( only with weed_pooch and pharma3 ( pharma3 is legal weed on my server. change the value if you need) 
+- 1 bong ( only with weed_pooch and/or pharma3 ( pharma3 is legal weed on my server. change the value if you need) 
  
 ------
 HOW TO : 

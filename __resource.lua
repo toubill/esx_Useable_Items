@@ -3,7 +3,7 @@
 -- InteractSound by Atri for SunnyIsland
 -- Verstion: v0.0.1
 
---With help of Morrow Big thanks to him !
+--With help of Morow Big thanks to him !
 ------
 
 

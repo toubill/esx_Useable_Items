@@ -5,7 +5,7 @@ esx_Useable_Umbrella_And_Case by Atri for SunnyIsland
 
 Verstion: v0.0.1
 
-With help of Morrow, Big Thanks to him !
+With help of Morow, Big Thanks to him !
  
 ------
 HOW TO : 

@@ -15,7 +15,7 @@ With help of Morow, Big Thanks to him !
 ------
 HOW TO : 
 ------
-Add SQL in you database.
+Add SQL in your database.
 -Item and shops
 
 Add this in your config.cfg:

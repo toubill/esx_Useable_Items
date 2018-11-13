@@ -21,7 +21,7 @@ set the price in your Database.
 
 Go in shop, buy any item.
 Open your inventory menu.
-Use for use
+Use for use and 
 use again for stop the animtion.
 
 Enjoy.

@@ -197,3 +197,36 @@ AddEventHandler('esx_extraitems:handbag', function()
 	end
 end)  
 
+RegisterNetEvent('esx_extraitem:bong')
+AddEventHandler('esx_extraitem:bong', function()
+
+  local playerPed = GetPlayerPed(-1)
+ 
+	if not IsAnimated then  
+	local prop_name = 'prop_bong_01'
+	local prop_name2 = 'p_cs_lighter_01' --
+	IsAnimated = true
+    Citizen.CreateThread(function()
+			local x,y,z = table.unpack(GetEntityCoords(playerPed))
+	        prop = CreateObject(GetHashKey(prop_name), x, y, z+0.2,  true,  true, true)	
+			prop2= CreateObject(GetHashKey(prop_name2), x, y, z+0.2,  true,  true, true)	
+   
+      RequestAnimDict('anim@safehouse@bong')
+
+    while not HasAnimDictLoaded('anim@safehouse@bong') do
+      Citizen.Wait(0)
+    end
+	  AttachEntityToEntity(prop, playerPed, GetPedBoneIndex(playerPed, 57005), 0.10, 0.0, 0, 99.0, 192.0, 180.0, true, true, false, true, 1, true)
+      AttachEntityToEntity(prop, playerPed, GetPedBoneIndex(playerPed, 18905), 0.10, -0.25, 0, 95.0, 190.0, 180.0, true, true, false, true, 1, true)
+      TaskPlayAnim(playerPed, "anim@safehouse@bong", "bong_stage1", 3.5, -8, -1, 49, 0, 0, 0, 0)
+      Citizen.Wait(1500)
+      
+      Citizen.Wait(8000)
+	  IsAnimated = false
+      DeleteObject(prop)
+      DeleteObject(prop2)
+      ClearPedSecondaryTask(playerPed)
+      TriggerServerEvent('esx_extraitem:bong')
+      end)
+     end
+    end)

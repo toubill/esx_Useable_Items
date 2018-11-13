@@ -1,9 +1,9 @@
 # esx_Useable_Umbrella_And_Case
 buy and use your umbrella and more
 
- esx_Useable_Umbrella_And_Case by Atri for SunnyIsland
- Verstion: v0.0.1
- With help of Morrow, Big Thanks to him !
+esx_Useable_Umbrella_And_Case by Atri for SunnyIsland
+Verstion: v0.0.1
+With help of Morrow, Big Thanks to him !
  
 ------
 HOW TO : 

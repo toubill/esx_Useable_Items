@@ -17,8 +17,8 @@ Add this in your config.cfg:
 
 start esx_Useable_Umbrella_And_Case
 
-set the price in your Database.
 
+set the price in your Database.
 Go in shop, buy any item.
 Open your inventory menu.
 Use for use and 
